@@ -91,6 +91,11 @@ python manage.py runserver
 ```
 The application will be accessible at 'http://127.0.0.1:8000/'.
 
+### Run the Server on EC2 instance
+```bash
+python manage.py runserver 0.0.0.0:8000
+```
+The application will be available at '**Public IP address on the EC2 instance**'
 
 ## Project Features
 ### Frontend
